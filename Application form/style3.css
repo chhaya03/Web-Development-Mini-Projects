@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+    overflow-x: none;
+}
+
+.container {
+
+    height: 550px;
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.first-line {
+
+    display: flex;
+    gap: 20px;
+}
+
+#first-name {
+    width: 270px;
+    height: 25px;
+}
+
+#second-name {
+    width: 270px;
+    height: 25px;
+}
+
+.second-line {
+
+    display: flex;
+    gap: 20px;
+}
+
+#email {
+
+    width: 270px;
+    height: 25px;
+}
+
+#role {
+    width: 270px;
+    height: 25px;
+}
+
+.ct-pin {
+    display: flex;
+    gap: 20px;
+}
+
+#city {
+    width: 270px;
+    height: 25px;
+}
+
+#code {
+    width: 270px;
+    height: 25px;
+}
+
+.date-cv {
+
+    display: flex;
+    gap: 20px;
+}
+
+#date {
+    width: 270px;
+    height: 25px;
+}
+
+#file {
+    border: 1px solid rgb(113, 110, 110);
+    border-radius: 2px;
+    width: 270px;
+    height: 24px;
+}
+
+.btn {
+
+    text-align: end;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.981);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9px;
+
+    border-radius: 7px;
+    border: 0;
+}

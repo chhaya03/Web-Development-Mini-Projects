@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    background-color: lightgray;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: white;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-head {
+    display: flex;
+    margin-left: 120px;
+}
+
+.left-head img {
+    margin-top: 25px;
+}
+
+.left-head h4 {
+    margin-top: 20px;
+    color: rgb(6, 75, 6);
+}
+
+.left-head span {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-right: -5px;
+}
+
+.right-head {
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.menu-icon {
+    background-color: black;
+    height: 5px;
+    width: 35px;
+    margin: 6px 0;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 80px;
+}
+
+.left-second-section img {
+    height: 250px;
+    width: 250px;
+}
+
+.right-second-section {
+    height: 250px;
+    width: 320px;
+    display: block;
+}
+
+.green-btn {
+    height: 20px;
+    width: 200px;
+    background-color: rgb(6, 75, 6);
+    color: white;
+    border: 0 solid transparent;
+    text-align: center;
+
+}
+
+.right-second-section h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+.right-second-section p {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+.right-second-section button {
+
+    height: 30px;
+    width: 110px;
+    background-color: rgb(237, 160, 44);
+    border-radius: 0;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.third-section p {
+    font-size: small;
+    opacity: 0.8;
+}
+
+.third-section h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.heading .menu {
+
+    height: 23px;
+    width: 80px;
+    border: 1px transparent;
+    background-color: rgb(8, 91, 8);
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.heading h3 {
+    margin-left: 540px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.outlet {
+    display: grid;
+
+    height: 500px;
+    width: 80%;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    gap: 8px;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.food {
+    background-color: aqua;
+    border: 1px solid transparent;
+}
+
+
+
+.food1 {
+    background-image: url("food1.jpeg");
+    background-size: cover;
+}
+
+.food2 {
+    background-image: url("food2.jpeg");
+    background-size: cover;
+}
+
+.food3 {
+    background-image: url("food3.jpeg");
+    background-size: cover;
+}
+
+.food4 {
+    background-image: url("food4.jpeg");
+    background-size: cover;
+}
+
+.food5 {
+    background-image: url("food5.jpeg");
+    background-size: cover;
+}
+
+
+.food6 {
+    background-image: url("food6.jpeg");
+    background-size: cover;
+}
+
+
+.food7 {
+    background-image: url("food7.webp");
+    background-size: cover;
+}
+
+
+.food8 {
+    background-image: url("food8.jpeg");
+    background-size: cover;
+}
+
+
+.food9 {
+    background-image: url("food9.webp");
+    background-position: bottom center;
+    background-size: cover;
+}
+
+
+.food10 {
+    background-image: url("food10.jpg");
+    background-size: cover;
+}
+
+.food11 {
+    background-image: url("food11.jpeg");
+    background-size: cover;
+}
+
+.footer {
+
+    height: 200px;
+    width: 100%;
+    background-color: rgb(234, 208, 184);
+
+    margin-top: 80px;
+
+
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+
+}
+
+.col1 img {
+    margin-top: 25px;
+}
+
+.col1 h4 {
+
+    color: rgb(6, 75, 6);
+    margin-top: -38px;
+    margin-left: 30px;
+}
+
+.col1 span {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    margin-right: -5px;
+}
+
+.footer p {
+    font-size: small;
+    color: rgb(62, 53, 53);
+}

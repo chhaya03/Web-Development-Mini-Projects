@@ -1,0 +1,67 @@
+.container {
+
+    border: 1px solid black;
+    height: 700px;
+    width: 800px;
+    margin-left: 500px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+
+.head {
+
+    margin-left: 500px;
+
+
+}
+
+.subs:hover {
+
+    color: red;
+}
+
+.firsthead {
+    margin-left: 350px;
+    margin-top: -40px;
+}
+
+.box {
+
+    border: 3px solid rgb(190, 178, 178);
+
+}
+
+#box1 {
+    padding-top: 3px;
+    padding-left: 15px;
+
+}
+
+#box2 {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+#box3 {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+#box4 {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+#box5 {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+#box6 {
+    padding-top: 3px;
+    padding-left: 15px;
+}

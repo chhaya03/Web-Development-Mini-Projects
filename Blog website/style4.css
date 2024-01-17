@@ -1,0 +1,85 @@
+.container {
+
+    border: 1px solid black;
+    height: 1200px;
+    width: 800px;
+    margin-left: 500px;
+    padding-left: 10px;
+    display: grid;
+
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 50px 1fr;
+
+    grid-template-areas:
+        "hd hd"
+        "side main";
+
+}
+
+#box1 {
+    grid-area: hd;
+}
+
+
+.head {
+
+    margin-left: 500px;
+
+
+}
+
+.subs:hover {
+
+    color: red;
+}
+
+.firsthead {
+    margin-left: 330px;
+    margin-top: -40px;
+}
+
+
+
+#box2 {
+    grid-area: side;
+    /* padding-bottom: 1000px; */
+}
+
+.sub1 {
+
+    border: 1px solid black;
+    height: fit-content;
+    width: 550px;
+}
+
+.sub2 {
+    border: 1px solid black;
+    height: fit-content;
+    width: 550px;
+}
+
+button {
+    border-radius: 15px;
+}
+
+#but1 {
+    border-color: blue;
+    color: blue;
+}
+
+#but2 {
+    border-color: grey;
+    color: grey;
+}
+
+#box3 {
+    grid-area: main;
+    padding-left: 25px;
+}
+
+.sub3 {
+
+
+    height: fit-content;
+    width: 200px;
+}

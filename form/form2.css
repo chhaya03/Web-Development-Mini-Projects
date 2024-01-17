@@ -1,0 +1,13 @@
+.box {
+    border: 5px solid grey;
+    height: 420px;
+    width: 400px;
+    padding-left: 20px;
+
+}
+
+.comment {
+    font-size: small;
+    font-weight: 500;
+    padding-top: 20px;
+}

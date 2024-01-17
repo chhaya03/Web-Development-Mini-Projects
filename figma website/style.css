@@ -1,0 +1,135 @@
+.wrapper {
+
+    height: 1100px;
+    width: 850px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    margin-left: 500px;
+    display: grid;
+    grid-template-rows: 850px 250px;
+
+
+
+}
+
+.container {
+
+
+    width: 825px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 160px 320px 320px;
+    padding-left: 25px;
+    grid-template-areas:
+        "hd hd"
+        "main1 side1"
+        "main2 side2";
+    /* padding: 20px; */
+
+
+}
+
+
+
+
+#header {
+    grid-area: hd;
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 30%;
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 30px;
+}
+
+#box1 {
+
+    margin-left: 50px;
+}
+
+button {
+    color: white;
+    background-color: indigo;
+    height: 25px;
+    width: 100px;
+    justify-self: end;
+    margin-right: 15px;
+}
+
+button:hover {
+    transform: scale(1px);
+    color: blue;
+}
+
+#box2:hover {
+    transform: scale(1px);
+    color: blue;
+    height: fit-content;
+}
+
+#box3:hover {
+    transform: scale(1px);
+    color: blue;
+    height: fit-content;
+}
+
+#box4:hover {
+    transform: scale(1px);
+    color: blue;
+    height: fit-content;
+}
+
+#box5:hover {
+    transform: scale(1px);
+    color: blue;
+    height: fit-content;
+}
+
+
+#box6 {
+    grid-area: main1;
+}
+
+#box7 {
+    grid-area: side1;
+    margin-left: 80px;
+
+}
+
+#box8 {
+    grid-area: main2;
+    margin-top: 20px;
+}
+
+#box9 {
+    grid-area: side2;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#footer {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 50px;
+    padding-left: 25px;
+
+}
+
+.address {
+    margin-top: -10px;
+}
+
+.mail {
+    line-height: 5px;
+}
+
+#box12 {
+    line-height: 4px;
+    justify-self: center;
+}
+
+#box13 {
+    justify-self: center;
+}

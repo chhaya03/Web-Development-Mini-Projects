@@ -1,0 +1,36 @@
+.box {
+    border: 1px solid black;
+    height: 550px;
+    width: 550px;
+    background-color: aqua;
+    padding: 5px;
+}
+
+#box1 {
+
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top: -15px;
+    left: 530px;
+}
+
+img {
+    position: absolute;
+    left: 125px;
+    top: 100px;
+}
+
+#box3 {
+    position: relative;
+    top: 490px;
+
+}
+
+#box4 {
+    position: relative;
+    p left: 530px;
+    top: 470px;
+}

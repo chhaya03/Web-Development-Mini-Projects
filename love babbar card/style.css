@@ -1,0 +1,40 @@
+.box {
+
+    border: 1px solid whitesmoke;
+    height: 340px;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+
+img {
+
+    height: 200px;
+    width: 330px;
+    border-radius: 5%;
+}
+
+h1 {
+    font-size: medium;
+
+}
+
+span {
+    word-spacing: 20px;
+}
+
+.price {
+    color: rgb(215, 20, 215);
+    word-spacing: -5px;
+}
+
+.orginal {
+    color: rgb(57, 54, 54);
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}

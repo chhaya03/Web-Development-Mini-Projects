@@ -1,0 +1,48 @@
+body {
+    background-color: lightgrey;
+}
+
+
+.parent {
+
+    border: 5px solid black;
+    height: 800px;
+    width: 600px;
+    margin-left: 30%;
+    padding-left: 40px;
+
+    background: white;
+}
+
+img {
+
+    height: 180px;
+    width: 140px;
+    border-radius: 100px;
+}
+
+.caption {
+
+    font-weight: bolder;
+    font-size: larger;
+    text-align: end;
+    word-spacing: 10px;
+
+}
+
+.date {
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 270px;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+footer {
+
+    text-align: end;
+    padding-right: 50px;
+
+}

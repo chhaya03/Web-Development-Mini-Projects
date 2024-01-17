@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+    border-top: 4px solid darkviolet;
+    border-bottom: 4px solid darkgreen;
+    border-left: 4px solid rgb(0, 75, 128);
+    border-right: 4px solid rgb(255, 51, 0);
+
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+    animation-name: chhaya;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes chhaya {
+
+    0% {
+        border: 4px solid darkviolet;
+    }
+
+    20% {
+        border: 4px solid darkgreen;
+    }
+
+    20% {
+        border: 4px solid rgb(0, 75, 128);
+    }
+
+    20% {
+        border: 4px solid rgb(69, 6, 101);
+    }
+
+    20% {
+        border: 4px solid rgb(255, 51, 0);
+    }
+
+    20% {
+        border: 4px solid rgb(28, 232, 232);
+    }
+}
+
+
+button:hover {
+    cursor: pointer;
+    animation-play-state: running;
+}

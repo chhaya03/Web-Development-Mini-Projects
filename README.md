@@ -1,2 +1,7 @@
 # Web-Development-Mini-Projects
-Using Html, Css and Tailwind
+<h1>Technologies  used </h1>
+<ul>
+  <li>HTML</li>
+  <li>Tailwind</li>
+  <li>CSS</li>
+</ul>

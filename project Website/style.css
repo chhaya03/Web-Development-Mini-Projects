@@ -1,0 +1,317 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/* this is for section1 */
+
+.section1 {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.section1 h2 {
+    margin-inline: 42%;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrap {
+    margin-left: 70px;
+}
+
+.links {
+    width: 23%;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 35%;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Now there is starting of section2 */
+
+
+.section2 {
+    height: 40%;
+    width: 100%;
+    background-color: rgb(98, 8, 126);
+    color: white;
+}
+
+.section2 h1 {
+    margin-inline: 35%;
+    padding-top: 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2 p {
+    margin-inline: 33%;
+    padding-top: 1rem;
+    /* word-spacing: 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2 button {
+    width: 6%;
+    height: 12%;
+    margin-inline: 45%;
+    margin-top: 1rem;
+    border-radius: 3px;
+    border: none;
+    font-weight: bolder;
+    font-size: small;
+    cursor: pointer;
+}
+
+/* 
+now section3 */
+
+.section3 {
+    height: 35%;
+    width: 100%;
+    background-color: rgb(153, 6, 38);
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.section3 h4 {
+
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section3 p {
+    padding-top: 1rem;
+}
+
+
+/* section4 */
+.section4 {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(4, 121, 121);
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.section4 h4 {
+    color: white;
+    font-weight: bold;
+    -ms-perspective-origin-x: 50;
+    scale: 2;
+
+}
+
+.serve1and2 {
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.serve1 {
+    height: 30%;
+    width: 14%;
+    background-color: rgb(7, 82, 110);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.serve1 h5 {
+    font-size: larger;
+}
+
+.serve1 p {
+    padding-top: 10px;
+}
+
+
+.serve2 {
+    height: 30%;
+    width: 14%;
+    background-color: rgb(16, 16, 16);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.serve2 h5 {
+    font-size: larger;
+}
+
+.serve2 p {
+    padding-top: 10px;
+}
+
+
+.serve3 {
+    height: 28%;
+    width: 14%;
+    background-color: rgb(7, 82, 110);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-inline: 43%;
+    margin-top: 20px;
+
+}
+
+.serve3 h5 {
+    font-size: larger;
+}
+
+.serve3 p {
+    padding-top: 10px;
+
+}
+
+
+
+/*section5 */
+
+.section5 {
+
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.section5 h4 {
+    color: white;
+    font-weight: bold;
+    -ms-perspective-origin-x: 50;
+    scale: 2;
+}
+
+.projects {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project1 {
+    padding-inline: 40px;
+    padding-block: 25px;
+    color: white;
+    border-radius: 2px;
+    background-color: black;
+    border: none;
+}
+
+.project2 {
+    padding-inline: 40px;
+    padding-block: 25px;
+    color: white;
+    border-radius: 2px;
+    background-color: black;
+    border: none;
+}
+
+.project3 {
+    margin-top: 20px;
+    padding-inline: 40px;
+    padding-block: 25px;
+    color: white;
+    border-radius: 2px;
+    background-color: black;
+    border: none;
+}
+
+
+/* section6 */
+
+.section6 {
+
+    height: 55%;
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.section6 h5 {
+
+    color: white;
+    font-weight: bold;
+    -ms-perspective-origin-x: 50;
+    scale: 2;
+}
+
+.section6 span {
+    color: white;
+}
+
+.section6 a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 15px;
+}
+
+#name {
+    margin-top: 1rem;
+    width: 30%;
+    padding-block: 5px;
+}
+
+#Email {
+    margin-top: 1rem;
+    width: 30%;
+    padding-block: 5px;
+}
+
+#msg {
+
+    margin-top: 1rem;
+    width: 30%;
+}
+
+.section6 button {
+
+    margin-top: 1rem;
+    padding-block: 7px;
+    padding-inline: 8px;
+    background-color: rgb(107, 4, 71);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
